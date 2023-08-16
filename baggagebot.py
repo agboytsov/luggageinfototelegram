@@ -46,7 +46,7 @@ dp: Dispatcher = Dispatcher()
 # "/start" command handling
 @dp.message(Command(commands=["start"]))
 async def process_start_command(message: Message):
-    await message.answer('Привет! по любому сообщению я проверю статус багажа')
+    await message.answer('Hi! Nihao! Privet! Send my any message and I will check about your baggage')
 
 
 
